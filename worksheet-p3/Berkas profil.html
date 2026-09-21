@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Tugas dan Tenggat Saya</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Daftar Tugas dan Tenggat Saya</h1>
+        <p>
+            Halaman sederhana untuk mencatat tugas kuliah,
+            tenggat waktu, dan prioritas pengerjaan.
+        </p>
+    </header>
+
+    <nav aria-label="Navigasi utama">
+        <a href="#beranda">Beranda</a> |
+        <a href="#daftar-tugas">Daftar Tugas</a> |
+        <a href="#tambah-tugas">Tambah Tugas</a>
+    </nav>
+
+    <main>
+        <section id="beranda">
+            <h2>Beranda</h2>
+
+            <figure>
+                <img
+                    src="tugas-kuliah.webp"
+                    alt="Ilustrasi seseorang sedang mengerjakan tugas kuliah"
+                    width="640"
+                    height="360"
+                    loading="lazy"
+                >
+
+                <figcaption>
+                    *Ilustrasi kegiatan mengerjakan tugas kuliah.
+                </figcaption>
+            </figure>
+
+            <p>
+                kamu memiliki beberapa tugas dan dua tugas memiliki prioritas tinggi, 
+                yaitu Worksheet P3 HTML5 dan Laporan Praktikum Jaringan.  
+            </p>
+        </section>
+
+        <section id="daftar-tugas">
+            <h2>Daftar Tugas</h2>
+
+            <p>
+                Berikut adalah daftar tugas kuliah beserta mata kuliah,
+                tenggat waktu, dan tingkat prioritasnya.
+            </p>
+
+            <table>
+                <caption>Daftar tugas dan tenggat waktu</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Tugas</th>
+                        <th scope="col">Mata Kuliah</th>
+                        <th scope="col">Tenggat</th>
+                        <th scope="col">Prioritas</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">Worksheet P3 HTML5</th>
+                        <td>PABW</td>
+                        <td>
+                            <time datetime="2026-09-21">
+                                21 September 2026
+                            </time>
+                        </td>
+                        <td>Tinggi</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Laporan Praktikum Jaringan</th>
+                        <td>Jaringan Komputer</td>
+                        <td>
+                            <time datetime="2026-09-23">
+                                23 September 2026
+                            </time>
+                        </td>
+                        <td>Tinggi</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Tugas Pemrograman Java</th>
+                        <td>Pemrograman Berorientasi Objek</td>
+                        <td>
+                            <time datetime="2026-09-25">
+                                25 September 2026
+                            </time>
+                        </td>
+                        <td>Sedang</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Presentasi Kelompok</th>
+                        <td>Sistem Informasi</td>
+                        <td>
+                            <time datetime="2026-09-28">
+                                28 September 2026
+                            </time>
+                        </td>
+                        <td>Sedang</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="tambah-tugas">
+            <h2>Tambah Tugas</h2>
+
+            <p>
+                Gunakan formulir berikut untuk mencatat tugas baru.
+            </p>
+
+            <form>
+                <div>
+                    <label for="nama-tugas">Nama Tugas</label>
+                    <input
+                        type="text"
+                        id="nama-tugas"
+                        name="nama-tugas"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="mata-kuliah">Mata Kuliah</label>
+                    <input
+                        type="text"
+                        id="mata-kuliah"
+                        name="mata-kuliah"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="tenggat">Tenggat</label>
+                    <input
+                        type="date"
+                        id="tenggat"
+                        name="tenggat"
+                        required
+                    >
+                </div>
+
+                <button type="submit">Tambah Tugas</button>
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>
+            &copy; Rafi Adzkaulhuda Nasution · 25523092 
+            
+        </p>
+    </footer>
+
+</body>
+</html>
