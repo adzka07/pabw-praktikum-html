@@ -15,6 +15,6 @@ kolom tabel:tugas, mata kuliah, tenggat, prioritas
 
 kolom form:nama tugas, mata kuliah, tanggat
 
-gambar:
+gambar:tugas-kuliah.webp
 
 penggunaan ai :di bagian baris kode minta untuk di percantik lagi
