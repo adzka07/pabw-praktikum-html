@@ -17,4 +17,4 @@ kolom form:nama tugas, mata kuliah, tanggat
 
 gambar:tugas-kuliah.webp
 
-penggunaan ai :di bagian baris kode minta untuk di percantik lagi
+penggunaan ai :di bagian baris kode minta buat lebih bagus
